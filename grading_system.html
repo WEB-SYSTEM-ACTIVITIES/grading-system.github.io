@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grading System</title>
+  <link rel="stylesheet" href="grading_system.css">
+  <script src="grading_system.js"></script>
+</head>
+<body>
+  <div class="hero">
+    <div class="container">
+      <div class="input-container">
+
+        <div>
+          <h1 style="margin-right: 5.2vw;">English</h1><input type="text" id="English">
+        </div>
+        <div>
+          <h1 style="margin-right: 5.2vw;">Science</h1><input type="text" id="Science">
+        </div>
+        <div>
+          <h1 style="margin-right: 1.2vw;">Mathematics</h1><input type="text" id="Mathematics">
+        </div>
+        <div>
+          <h1 style="margin-right: 4.2vw;">Filipino</h1><input type="text" id="Filipino">
+        </div>
+        <div>
+          <h1 style="margin-right: 10.2vw;">PE</h1><input type="text" id="PE">
+        </div>
+        <div>
+          <h1 style="margin-right: 10.2vw;">AP  </h1><input type="text" id="AP">
+        </div>
+        <div>
+          <h1 style="margin-right: 7.2vw;">T.L.E</h1><input type="text" id="TLE">
+        </div>
+     
+      </div>
+
+      <div class="remark">
+        <div class="print">RESULT:</div>
+          <div class="results">
+            <div id="avg">
+              Average: 
+            </div>
+            <div id="descriptor">
+              Descriptor: 
+            </div>
+            <div id="remarks">
+              Remarks: 
+            </div>
+          </div>
+      </div>
+
+      <div class="buttons">
+        <button type="button" onclick="calculateBtn()">Calculate</button>
+        <button type="button" onclick="clearBtn()">Clear</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

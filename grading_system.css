@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 17vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 2em;
+}
+
+.input-container {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1vh;
+}
+
+.container .remark {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em 2em 2em;
+}
+
+.container .remark .print {
+  margin-bottom: 1vh;
+  font-size: 30px;
+}
+
+.container .remark .results{
+  margin-left: 1vw;
+  font-size: 20px;
+}
+
+.container .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .buttons button{
+  display: flex;
+  flex-direction: row;
+  margin: 0 1vw;
+  margin-bottom: 4vh;
+  padding: 1em;
+}
